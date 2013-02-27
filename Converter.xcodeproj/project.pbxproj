@@ -11,10 +11,11 @@
 		A89BEA7116DD4823004AE8BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A89BEA6F16DD4823004AE8BE /* InfoPlist.strings */; };
 		A89BEA7316DD4823004AE8BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A89BEA7216DD4823004AE8BE /* main.m */; };
 		A89BEA7716DD4823004AE8BE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A89BEA7516DD4823004AE8BE /* Credits.rtf */; };
-		A89BEA7A16DD4823004AE8BE /* h10Document.m in Sources */ = {isa = PBXBuildFile; fileRef = A89BEA7916DD4823004AE8BE /* h10Document.m */; };
-		A89BEA7D16DD4823004AE8BE /* h10Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89BEA7B16DD4823004AE8BE /* h10Document.xib */; };
+		A89BEA7A16DD4823004AE8BE /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = A89BEA7916DD4823004AE8BE /* Document.m */; };
+		A89BEA7D16DD4823004AE8BE /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89BEA7B16DD4823004AE8BE /* Document.xib */; };
 		A89BEA8016DD4823004AE8BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89BEA7E16DD4823004AE8BE /* MainMenu.xib */; };
-		A89BEA8316DD4823004AE8BE /* h10Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A89BEA8116DD4823004AE8BE /* h10Document.xcdatamodeld */; };
+		A89BEA8316DD4823004AE8BE /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A89BEA8116DD4823004AE8BE /* Document.xcdatamodeld */; };
+		A89BEA8B16DD5098004AE8BE /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = A89BEA8A16DD5098004AE8BE /* Converter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +29,13 @@
 		A89BEA7216DD4823004AE8BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A89BEA7416DD4823004AE8BE /* Converter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Converter-Prefix.pch"; sourceTree = "<group>"; };
 		A89BEA7616DD4823004AE8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		A89BEA7816DD4823004AE8BE /* h10Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h10Document.h; sourceTree = "<group>"; };
-		A89BEA7916DD4823004AE8BE /* h10Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = h10Document.m; sourceTree = "<group>"; };
-		A89BEA7C16DD4823004AE8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/h10Document.xib; sourceTree = "<group>"; };
+		A89BEA7816DD4823004AE8BE /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		A89BEA7916DD4823004AE8BE /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		A89BEA7C16DD4823004AE8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
 		A89BEA7F16DD4823004AE8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		A89BEA8216DD4823004AE8BE /* h10Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = h10Document.xcdatamodel; sourceTree = "<group>"; };
+		A89BEA8216DD4823004AE8BE /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		A89BEA8916DD5098004AE8BE /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		A89BEA8A16DD5098004AE8BE /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +89,11 @@
 		A89BEA6C16DD4823004AE8BE /* Converter */ = {
 			isa = PBXGroup;
 			children = (
-				A89BEA7816DD4823004AE8BE /* h10Document.h */,
-				A89BEA7916DD4823004AE8BE /* h10Document.m */,
-				A89BEA7B16DD4823004AE8BE /* h10Document.xib */,
+				A89BEA7816DD4823004AE8BE /* Document.h */,
+				A89BEA7916DD4823004AE8BE /* Document.m */,
+				A89BEA7B16DD4823004AE8BE /* Document.xib */,
 				A89BEA7E16DD4823004AE8BE /* MainMenu.xib */,
-				A89BEA8116DD4823004AE8BE /* h10Document.xcdatamodeld */,
+				A89BEA8116DD4823004AE8BE /* Document.xcdatamodeld */,
 				A89BEA6D16DD4823004AE8BE /* Supporting Files */,
 			);
 			path = Converter;
@@ -99,6 +102,8 @@
 		A89BEA6D16DD4823004AE8BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A89BEA8916DD5098004AE8BE /* Converter.h */,
+				A89BEA8A16DD5098004AE8BE /* Converter.m */,
 				A89BEA6E16DD4823004AE8BE /* Converter-Info.plist */,
 				A89BEA6F16DD4823004AE8BE /* InfoPlist.strings */,
 				A89BEA7216DD4823004AE8BE /* main.m */,
@@ -134,7 +139,7 @@
 		A89BEA5916DD4823004AE8BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = h10;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "hundert10 Medien GmbH";
 			};
@@ -162,7 +167,7 @@
 			files = (
 				A89BEA7116DD4823004AE8BE /* InfoPlist.strings in Resources */,
 				A89BEA7716DD4823004AE8BE /* Credits.rtf in Resources */,
-				A89BEA7D16DD4823004AE8BE /* h10Document.xib in Resources */,
+				A89BEA7D16DD4823004AE8BE /* Document.xib in Resources */,
 				A89BEA8016DD4823004AE8BE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,8 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A89BEA7316DD4823004AE8BE /* main.m in Sources */,
-				A89BEA7A16DD4823004AE8BE /* h10Document.m in Sources */,
-				A89BEA8316DD4823004AE8BE /* h10Document.xcdatamodeld in Sources */,
+				A89BEA7A16DD4823004AE8BE /* Document.m in Sources */,
+				A89BEA8316DD4823004AE8BE /* Document.xcdatamodeld in Sources */,
+				A89BEA8B16DD5098004AE8BE /* Converter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,12 +205,12 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		A89BEA7B16DD4823004AE8BE /* h10Document.xib */ = {
+		A89BEA7B16DD4823004AE8BE /* Document.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A89BEA7C16DD4823004AE8BE /* en */,
 			);
-			name = h10Document.xib;
+			name = Document.xib;
 			sourceTree = "<group>";
 		};
 		A89BEA7E16DD4823004AE8BE /* MainMenu.xib */ = {
@@ -238,6 +244,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -245,6 +252,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
 		};
@@ -262,12 +270,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
 		};
@@ -318,13 +328,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A89BEA8116DD4823004AE8BE /* h10Document.xcdatamodeld */ = {
+		A89BEA8116DD4823004AE8BE /* Document.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A89BEA8216DD4823004AE8BE /* h10Document.xcdatamodel */,
+				A89BEA8216DD4823004AE8BE /* Document.xcdatamodel */,
 			);
-			currentVersion = A89BEA8216DD4823004AE8BE /* h10Document.xcdatamodel */;
-			path = h10Document.xcdatamodeld;
+			currentVersion = A89BEA8216DD4823004AE8BE /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
