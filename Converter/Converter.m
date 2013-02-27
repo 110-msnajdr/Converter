@@ -14,6 +14,11 @@
 @synthesize outputTextField;
 
 - (IBAction)calculate:(id)sender {
-    NSLog(@"Hallo!");
+    double result = [self.inputTextField doubleValue];
+    double factor = [self.factorTextField doubleValue];
+    
+    result = result * factor;
+    
+    [self.outputTextField setDoubleValue:result];
 }
 @end
